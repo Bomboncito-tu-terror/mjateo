@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateo-Rojas</title>
+  
+  <!-- googlefonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- header section -->
+  <header id="header">
+    <div class="left-section">
+      <a class="logo" href="#">Mateo</a>
+    </div>
+
+    <nav>
+      <a class="nav-item active" href="#hero">Inicio</a>
+      <a class="nav-item" href="#servicios">Servicios</a>
+      <a class="nav-item" href="#proyectos">Proyectos</a>
+      <a class="nav-item" href="#acerca-de">Acerca de</a>
+      <a class="nav-item" href="#contacto">Contacto</a>
+    </nav>
+
+  </header>
+
+  <!-- Hero section -->
+  <section id="hero">
+    <div class="hero-left">
+      <div class="content">
+
+        <h1>Hola mi nombre es Mateo</h1>
+        <h3>Diseñador web creativo</h3>
+        <p>
+          Soy Mateo, un diseñador web con una visión única para transformar ideas en experiencias
+           digitales impactantes. Mi objetivo es crear sitios web que no solo sean visualmente
+            atractivos, sino también funcionales y fáciles de usar. Me apasiona trabajar con emprendedores
+             y empresas para construir presencia online de manera efectiva y auténtica. Si buscas un diseño
+              que refleje la esencia de tu marca y cautive a tu audiencia, estoy aquí para hacerlo realidad. 
+              ¡Juntos podemos llevar tu proyecto al siguiente nivel! 
+        </p>
+
+        <div class="cta">
+          <button class="cta-1">Contratame</button>
+          <button class="cta-2">Contactame</button>
+        </div>
+
+        <div class="social-icon">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+
+      </div>
+    </div>
+    <div class="hero-right"></div>
+  </section>
+
+<!-- Servicios Section -->
+<section id="servicios">
+  <div class="servicios-content">
+    <h2>Servicios</h2>
+    <div class="servicios-grid">
+      <div class="servicio">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Desarrollo Web</h3>
+        <p>Creación de sitios web modernos y responsivos con HTML, CSS y JavaScript.</p>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-server"></i>
+        <h3>Sitios Web Dinámicos</h3>
+        <p>Desarrollo de sitios web con PHP y su propio panel de administración.</p>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-chart-line"></i>
+        <h3>SEO</h3>
+        <p>Optimización de sitios web para mejorar el posicionamiento en buscadores.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Proyectos Section -->
+<section id="proyectos">
+  <div class="proyectos-content">
+    <h2>Proyectos</h2>
+    <div class="proyectos-grid">
+      <div class="proyecto">
+        <img src="proyecto2.jpg" alt="Proyecto 2">
+        <h3>Sitio Web PHP y Panel de Control</h3>
+        <p>Desarrollo de un sitio web dinámico con PHP y un panel de control para administración.</p>
+      </div>
+      <div class="proyecto">
+        <img src="proyecto1.jpg" alt="Proyecto 1">
+        <h3>Sitio Web HTML, CSS y JS</h3>
+        <p>Creación de un sitio web estático con HTML, CSS y JavaScript para una experiencia interactiva.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Acerca de Section -->
+<section id="acerca-de">
+  <div class="container">
+    <div class="acerca-de-content">
+      <h2>Acerca de Mí</h2>
+      <p>
+        Soy un desarrollador web apasionado por crear experiencias digitales modernas, funcionales y atractivas. Mi enfoque se centra en diseñar sitios web y aplicaciones que no solo se vean bien, sino que también ofrezcan una experiencia de usuario fluida e intuitiva.
+      </p>
+      <p>
+        Con experiencia en tecnologías frontend y backend, mi objetivo es combinar diseño y funcionalidad para dar vida a proyectos innovadores que impacten positivamente en las personas y los negocios.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contacto Section -->
+<section id="contacto">
+  <div class="contacto-content">
+    <h2>Contacto</h2>
+    <p>¿Tienes un proyecto en mente? ¡Hablemos! Estoy aquí para ayudarte.</p>
+    <form id="contact-form" action="#" method="post">
+      <div class="form-group">
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="nombre">Nombre</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" required>
+        <label for="email">Correo electrónico</label>
+      </div>
+      <div class="form-group">
+        <input type="text" id="asunto" name="asunto" required>
+        <label for="asunto">Asunto</label>
+      </div>
+      <div class="form-group">
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        <label for="mensaje">Mensaje</label>
+      </div>
+      <button type="submit" class="submit-btn">
+        <span>Enviar mensaje</span>
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </form>
+  </div>
+</section>
+
+
+</body>
+
+
+<!-- Footer Section -->
+<footer id="footer">
+  <div class="footer-content">
+    <!-- Logo y nombre -->
+    <div class="footer-brand">
+      <a class="logo" href="#">Mateo</a>
+      <p>Transformando ideas en experiencias digitales.</p>
+    </div>
+
+    <!-- Enlaces rápidos -->
+    <div class="footer-links">
+      <h4>Enlaces Rápidos</h4>
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#acerca-de">Acerca de</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="footer-social">
+      <h4>Sígueme</h4>
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    <p>&copy; 2024 <strong>Mateo Rojas</strong>. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+</html>
